@@ -239,8 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         try {
 
-            const response = await fetch(
-                "http://localhost:3000/api/chat",
+            const response = await fetch("/api/chat", 
                 {
                     method: "POST",
 
